@@ -12,7 +12,7 @@
 
 FROM debian:bookworm-slim as pre-build
 
-ARG GS_VERSION=10.04.0
+ARG GS_VERSION=10.05.1
 
 ARG COMMON_BUILD_PACKAGES="\
   debhelper \
