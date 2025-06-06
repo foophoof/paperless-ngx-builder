@@ -12,7 +12,7 @@
 
 FROM debian:bookworm-slim as pre-build
 
-ARG QPDF_VERSION=11.9.1
+ARG QPDF_VERSION=12.2.0
 
 ARG COMMON_BUILD_PACKAGES="\
   cmake \
