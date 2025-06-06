@@ -65,13 +65,13 @@ jobs:
           rm --verbose --recursive --force psycopg2
       -
         name: Download psycopg2 files
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: psycopg2-${{ inputs.psycopg2_version }}
           path: ./psycopg2
       -
         name: Download jbig2enc files
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: jbig2enc-${{ inputs.jbig2enc_version }}
           path: ./jbig2enc
